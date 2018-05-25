@@ -1,4 +1,5 @@
 .vs
+Packages
 bin
 obj
 NotificationManager.csproj.user

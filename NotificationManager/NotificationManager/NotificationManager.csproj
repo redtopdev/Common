@@ -4,6 +4,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>RedTop.Common.NotificationManager</AssemblyName>
     <RootNamespace>RedTop.Common.NotificationManager</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>RedTop</Authors>
+    <Company>RedTop</Company>
+    <Product>PushNotification</Product>
   </PropertyGroup>
 
   <ItemGroup>

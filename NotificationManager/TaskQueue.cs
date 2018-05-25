@@ -18,7 +18,7 @@
 
         public void Enqueue(dynamic data)
         {
-            QueueTaskDelegate _queueTaskDelegate = new QueueTaskDelegate(PerformTask);
+            _queueTaskDelegate = new QueueTaskDelegate(PerformTask);
 
             lock (_LockObject)
             {
